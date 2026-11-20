@@ -1,0 +1,13 @@
+# Dependencias
+node_modules
+
+# Archivos que suben los usuarios (en producción viven en el volumen DATA_DIR)
+uploads/
+privado/
+
+# Variables personales opcionales (el .env principal SÍ se sube: no lleva secretos)
+.env*.local
+
+# Registros
+*.log
+npm-debug.log*
